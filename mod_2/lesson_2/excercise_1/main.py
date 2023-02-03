@@ -9,7 +9,7 @@ def excercise_4():
     product_2 = Product("pomarańcza", "owoce", 11)
     product_3 = Product("ziemniak", "warzywa", 3)
 
-    print(f"Produkty oferowane w sklepie: {product_1}, {product_2}, {product_3}")
+    # print(f"Produkty oferowane w sklepie: {product_1}, {product_2}, {product_3}")
     product_1.print_product()
     product_2.print_product()
     product_3.print_product()
