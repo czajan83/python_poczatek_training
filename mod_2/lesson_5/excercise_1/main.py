@@ -9,10 +9,12 @@ def excercise_1():
     product_1 = Product("jabłko", "owoce", 7)
     product_2 = Product("pomarańcza", "owoce", 11)
     product_3 = Product("ziemniak", "warzywa", 3)
+    product_4 = Product("woda mineralna", "napoje", 0.99)
 
     order_element_1 = OrderElement(product_1, 10)
     order_element_2 = OrderElement(product_2, 2)
     order_element_3 = OrderElement(product_3, 1)
+    order_element_4 = OrderElement(product_4, 13)
 
     # order_element_1.print_order_element()
     # product_1.print_product()
@@ -26,6 +28,10 @@ def excercise_1():
     print(str(order_1))
     print(str(order_2))
     print(str(order_3))
+
+    order_1.add_product_to_order_list(order_element_4)
+
+    print(str(order_1))
 
     # products = [product_1, product_2, product_3]
     # random_product_list = []
@@ -69,7 +75,7 @@ def excercise_4():
 
 
 if __name__ == "__main__":
-    excercise_4()
+    excercise_1()
 
 # print(f"Zamówienia złożone do sklepu to: {order_1}, {order_2}, {order_3}")
 #
