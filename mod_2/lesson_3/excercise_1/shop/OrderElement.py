@@ -5,7 +5,7 @@ class OrderElement:
         self.order_element_price = 0
 
     def print_order_element(self):
-        print(f"Produkt: {self.product.product_name}, cena jednostkowa: {self.product.price}, ilość: {self.amount} "
+        print(f"Produkt: {self.product.name}, cena jednostkowa: {self.product.price}, ilość: {self.amount} "
               f"wartość: {self.order_element_price}")
 
     def calculate_order_element_price(self):

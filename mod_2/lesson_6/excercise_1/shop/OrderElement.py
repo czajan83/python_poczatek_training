@@ -13,7 +13,7 @@ class OrderElement:
         self.calculate_order_element_price_net()
         self.calculate_order_element_price_tax()
         self.calculate_order_element_price_gross()
-        return f"Produkt: {self.product.product_name}, cena jednostkowa: {self.product.price}," \
+        return f"Produkt: {self.product.name}, cena jednostkowa: {self.product.price}," \
             + f"ilość: {self.amount} wartość netto: {self.order_element_price_net}," \
             + f"podatek: {self.order_element_price_tax}, wartość brutto: {self.order_element_price_gross}\n"
 

@@ -11,6 +11,6 @@ class Product:
     def __eq__(self, other):
         if self.__class__ != other.__class__:
             return NotImplemented
-        return (self.product_name == other.product_name and
+        return (self.product_name == other.name and
                 self.category == other.category and
                 self.price == other.price)
