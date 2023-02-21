@@ -1,0 +1,16 @@
+{
+    "client_name": "A",
+    "client_last_name": "C",
+    "product_0": {
+        "product_name": "Nazwa: Chleb | Kategoria: Jedzonko | Cena: 93 PLN/szt",
+        "quantity": "2"
+    }
+}
+{
+    "client_name": "A",
+    "client_last_name": "C",
+    "product_0": {
+        "product_name": "Nazwa: Chleb | Kategoria: Jedzonko | Cena: 93 PLN/szt",
+        "quantity": "2"
+    }
+}
